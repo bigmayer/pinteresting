@@ -8,6 +8,10 @@ $navbar-default-brand-color:       #c0392b;
 $brand-primary:                    #c0392b;
 $jumbotron-bg:                     white;
 
+#myTable th.header{
+	padding-bottom:25px;
+	}
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
