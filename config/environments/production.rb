@@ -46,6 +46,7 @@ Rails.application.configure do
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
+  
   config.log_level = :debug
 
   # Prepend all log lines with the following tags.
@@ -79,7 +80,7 @@ Rails.application.configure do
   # Required for Devise, remember to set to the Actual host
   config.action_mailer.default_url_options = { host: 'https://mayeronrails.herokuapp.com/' }
 
-  # Set paperclip to upload images to Amazon at the production environment
+  # Set paperclip to upload images to Amazon at the production environment 
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
